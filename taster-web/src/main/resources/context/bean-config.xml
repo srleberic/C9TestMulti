@@ -7,8 +7,8 @@
 		
 	<!-- <context:component-scan base-package="com.levi9.code9.repository" /> -->
 	
-	<context:component-scan base-package="com.levi9.code9.service.memory" />
-	<!-- <context:component-scan base-package="com.levi9.code9.service.impl" /> -->
+	<!-- <context:component-scan base-package="com.levi9.code9.service.memory" /> -->
+	<context:component-scan base-package="com.levi9.code9.service.impl" />
 	<context:component-scan base-package="com.levi9.code9.web" />
 		
 </beans>
